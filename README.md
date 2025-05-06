@@ -8,7 +8,7 @@
 ### base data file:
 ### {dbdatadir}/{library_name}/{indicator}.parquet
 ### incremental data file every day:
-### {dbdatadir}/{library_name}/{indicator}/{yyyy-mm-dd}.tar.bz2
+### {dbdatadir}/{library_name}/{indicator}/{yyyy-mm-dd}.csv.bz2
 
 ### data file content is a pandas dataframe, indexed by a DateTimeIndex type:
 ### columns: symbols or any other fields you want .
